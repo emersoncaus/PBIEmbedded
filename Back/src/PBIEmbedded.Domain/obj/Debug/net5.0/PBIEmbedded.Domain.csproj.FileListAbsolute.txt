@@ -1,0 +1,12 @@
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Domain\bin\Debug\net5.0\PBIEmbedded.Domain.deps.json
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Domain\bin\Debug\net5.0\PBIEmbedded.Domain.dll
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Domain\bin\Debug\net5.0\ref\PBIEmbedded.Domain.dll
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Domain\bin\Debug\net5.0\PBIEmbedded.Domain.pdb
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Domain\obj\Debug\net5.0\PBIEmbedded.Domain.csprojAssemblyReference.cache
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Domain\obj\Debug\net5.0\PBIEmbedded.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Domain\obj\Debug\net5.0\PBIEmbedded.Domain.AssemblyInfoInputs.cache
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Domain\obj\Debug\net5.0\PBIEmbedded.Domain.AssemblyInfo.cs
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Domain\obj\Debug\net5.0\PBIEmbedded.Domain.csproj.CoreCompileInputs.cache
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Domain\obj\Debug\net5.0\PBIEmbedded.Domain.dll
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Domain\obj\Debug\net5.0\ref\PBIEmbedded.Domain.dll
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Domain\obj\Debug\net5.0\PBIEmbedded.Domain.pdb

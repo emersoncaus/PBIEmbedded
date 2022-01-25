@@ -1,0 +1,17 @@
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\bin\Debug\net5.0\PBIEmbedded.Application.deps.json
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\bin\Debug\net5.0\PBIEmbedded.Application.dll
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\bin\Debug\net5.0\ref\PBIEmbedded.Application.dll
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\bin\Debug\net5.0\PBIEmbedded.Application.pdb
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\obj\Debug\net5.0\PBIEmbedded.Application.csprojAssemblyReference.cache
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\obj\Debug\net5.0\PBIEmbedded.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\obj\Debug\net5.0\PBIEmbedded.Application.AssemblyInfoInputs.cache
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\obj\Debug\net5.0\PBIEmbedded.Application.AssemblyInfo.cs
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\obj\Debug\net5.0\PBIEmbedded.Application.csproj.CoreCompileInputs.cache
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\obj\Debug\net5.0\PBIEmbedded.Application.dll
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\obj\Debug\net5.0\ref\PBIEmbedded.Application.dll
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\obj\Debug\net5.0\PBIEmbedded.Application.pdb
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\bin\Debug\net5.0\PBIEmbedded.Domain.dll
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\bin\Debug\net5.0\PBIEmbedded.Persistence.dll
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\bin\Debug\net5.0\PBIEmbedded.Domain.pdb
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\bin\Debug\net5.0\PBIEmbedded.Persistence.pdb
+C:\Users\EmersonCaus\Desktop\PowerBIEmbedded\back\src\PBIEmbedded.Application\obj\Debug\net5.0\PBIEmbedded.Application.csproj.CopyComplete

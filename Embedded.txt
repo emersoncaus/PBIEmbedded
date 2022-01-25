@@ -1,0 +1,15 @@
+Service Principal
+ID: 0077890e-664e-40b4-b66b-cdcceb0ccb2c
+Name: sp_bancooriginal_embedded
+
+
+Secret
+Value: xe77Q~~f51PxN4fgm.MfxdEF2Cbw4uP4DIjR2
+Secret ID: 336cb99f-50e1-4938-a966-0d9265533c3f
+
+Grupo
+GP_BancoOriginal_Embedded
+
+Visão Power BI
+Workspace ID: 3d30604b-0226-44b0-a333-f44aa43b8d5f
+Report ID: b3ad6163-3065-4f0e-9562-b926bd9c0f45
