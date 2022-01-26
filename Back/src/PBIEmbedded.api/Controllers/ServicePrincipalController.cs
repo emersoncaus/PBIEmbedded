@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PBIEmbedded.Application.Dtos;
 using PBIEmbedded.Application.Interfaces;
 using PBIEmbedded.Domain;
 using PBIEmbedded.Persistence.Contexts;
@@ -77,7 +78,7 @@ namespace PBIEmbedded.api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(ServicePrincipal model)
+        public async Task<IActionResult> Post(ServicePrincipalDto model)
         {
             try
             {
@@ -98,7 +99,7 @@ namespace PBIEmbedded.api.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, ServicePrincipal model)
+        public async Task<IActionResult> Put(int id, ServicePrincipalDto model)
         {
             try
             {

@@ -1,12 +1,9 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PBIEmbedded.Application.Dtos;
 using PBIEmbedded.Application.Interfaces;
-using PBIEmbedded.Domain;
-using PBIEmbedded.Persistence.Contexts;
 
 namespace PBIEmbedded.api.Controllers
 {
@@ -28,8 +25,9 @@ namespace PBIEmbedded.api.Controllers
             try
             {
                  var dashboards = await _dashboardService.GetAllDashboardsAsync();
-                 if(dashboards == null) return NotFound("No dashboard found");
+                 if(dashboards == null) return NoContent();
 
+                
                  return Ok(dashboards);
             }
             catch (Exception ex)
@@ -46,7 +44,7 @@ namespace PBIEmbedded.api.Controllers
             try
             {
                  var dashboard = await _dashboardService.GetDashboardByIdAsync(id);
-                 if(dashboard == null) return NotFound("No dashboard found");
+                 if(dashboard == null) return NoContent();
 
                  return Ok(dashboard);
             }
@@ -82,7 +80,7 @@ namespace PBIEmbedded.api.Controllers
             try
             {
                  var dashboards = await _dashboardService.GetDashaboardsByServicePrincipalAsync(servicePrincipalId);
-                 if(dashboards == null) return NotFound("No dashboard found by service principal");
+                 if(dashboards == null) return NoContent();
 
                  return Ok(dashboards);
             }
@@ -95,7 +93,7 @@ namespace PBIEmbedded.api.Controllers
         }
         
         [HttpPost]
-        public async Task<IActionResult> Post(Dashboard model)
+        public async Task<IActionResult> Post(DashboardDto model)
         {
             try
             {
@@ -116,7 +114,7 @@ namespace PBIEmbedded.api.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, Dashboard model)
+        public async Task<IActionResult> Put(int id, DashboardDto model)
         {
             try
             {

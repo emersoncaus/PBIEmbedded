@@ -1,16 +1,17 @@
 using System.Threading.Tasks;
+using PBIEmbedded.Application.Dtos;
 using PBIEmbedded.Domain;
 
 namespace PBIEmbedded.Application.Interfaces
 {
     public interface IDashboardService
     {
-         Task<Dashboard> AddDashboard (Dashboard model);
-         Task<Dashboard> UpdateDashboard (int dashboardId, Dashboard model);
+         Task<DashboardDto> AddDashboard (DashboardDto model);
+         Task<DashboardDto> UpdateDashboard (int dashboardId, DashboardDto model);
          Task<bool> DeleteDashboard (int dashboardId);
-         Task<Dashboard[]> GetAllDashboardsAsync();
-         Task<Dashboard> GetDashboardByIdAsync(int DashboardId);
+         Task<DashboardDto[]> GetAllDashboardsAsync();
+         Task<DashboardDto> GetDashboardByIdAsync(int DashboardId);
         //  Task<Dashboard[]> GetDashboardsByAreaAsync(string Area);
-         Task<Dashboard[]> GetDashaboardsByServicePrincipalAsync(int servicePrincipalId);
+         Task<DashboardDto[]> GetDashaboardsByServicePrincipalAsync(int servicePrincipalId);
     }
 }

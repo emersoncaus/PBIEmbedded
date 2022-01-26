@@ -17,6 +17,7 @@ using PBIEmbedded.Application.Interfaces;
 using PBIEmbedded.Persistence;
 using PBIEmbedded.Persistence.Contexts;
 using PBIEmbedded.Persistence.Interface;
+using AutoMapper;
 
 namespace PBIEmbedded.api
 {
@@ -39,6 +40,8 @@ namespace PBIEmbedded.api
             services.AddControllers()
                     .AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling
                                             = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+                                            
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             //General
             services.AddScoped<IGeneralPersist, GeneralPersist>();

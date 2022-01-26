@@ -1,15 +1,16 @@
 using System.Threading.Tasks;
+using PBIEmbedded.Application.Dtos;
 using PBIEmbedded.Domain;
 
 namespace PBIEmbedded.Application.Interfaces
 {
     public interface IServicePrincipalService
     {
-         Task<ServicePrincipal> AddServicePrincipal (ServicePrincipal model);
-         Task<ServicePrincipal> UpdateServicePrincipal (int servicePrincipalId, ServicePrincipal model);
+         Task<ServicePrincipalDto> AddServicePrincipal (ServicePrincipalDto model);
+         Task<ServicePrincipalDto> UpdateServicePrincipal (int servicePrincipalId, ServicePrincipalDto model);
          Task<bool> DeleteServicePrincipal (int servicePrincipalId);
-         Task<ServicePrincipal[]> GetAllServicePrincipalsAsync(bool includeUsers = false);
-         Task<ServicePrincipal> GetServicePrincipalByIdAsync(int servicePrincipalId);
-         Task<ServicePrincipal[]> GetAllServicePrincipalsByUser(string userEmail);
+         Task<ServicePrincipalDto[]> GetAllServicePrincipalsAsync(bool includeUsers = false);
+         Task<ServicePrincipalDto> GetServicePrincipalByIdAsync(int servicePrincipalId);
+         Task<ServicePrincipalDto[]> GetAllServicePrincipalsByUser(string userEmail);
     }
 }
