@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.api\\PBIEmbedded.api.csproj": {}
+    "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\pbiembedded.api\\PBIEmbedded.api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.api\\PBIEmbedded.api.csproj": {
+    "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\pbiembedded.api\\PBIEmbedded.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.api\\PBIEmbedded.api.csproj",
+        "projectUniqueName": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\pbiembedded.api\\PBIEmbedded.api.csproj",
         "projectName": "PBIEmbedded.api",
-        "projectPath": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.api\\PBIEmbedded.api.csproj",
+        "projectPath": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\pbiembedded.api\\PBIEmbedded.api.csproj",
         "packagesPath": "C:\\Users\\EmersonCaus\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.api\\obj\\",
+        "outputPath": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\pbiembedded.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EmersonCaus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,14 +22,16 @@
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Application\\PBIEmbedded.Application.csproj": {
-                "projectPath": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Application\\PBIEmbedded.Application.csproj"
+              "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Application\\PBIEmbedded.Application.csproj": {
+                "projectPath": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Application\\PBIEmbedded.Application.csproj"
               }
             }
           }
@@ -44,10 +46,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[11.0.0, )"
-            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[5.0.3, )"
@@ -95,18 +93,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Application\\PBIEmbedded.Application.csproj": {
+    "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Application\\PBIEmbedded.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Application\\PBIEmbedded.Application.csproj",
+        "projectUniqueName": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Application\\PBIEmbedded.Application.csproj",
         "projectName": "PBIEmbedded.Application",
-        "projectPath": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Application\\PBIEmbedded.Application.csproj",
+        "projectPath": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Application\\PBIEmbedded.Application.csproj",
         "packagesPath": "C:\\Users\\EmersonCaus\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Application\\obj\\",
+        "outputPath": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EmersonCaus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -125,11 +123,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Domain\\PBIEmbedded.Domain.csproj": {
-                "projectPath": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Domain\\PBIEmbedded.Domain.csproj"
+              "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Domain\\PBIEmbedded.Domain.csproj": {
+                "projectPath": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Domain\\PBIEmbedded.Domain.csproj"
               },
-              "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Persistence\\PBIEmbedded.Persistence.csproj": {
-                "projectPath": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Persistence\\PBIEmbedded.Persistence.csproj"
+              "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Persistence\\PBIEmbedded.Persistence.csproj": {
+                "projectPath": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Persistence\\PBIEmbedded.Persistence.csproj"
               }
             }
           }
@@ -143,6 +141,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -158,18 +162,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Domain\\PBIEmbedded.Domain.csproj": {
+    "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Domain\\PBIEmbedded.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Domain\\PBIEmbedded.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Domain\\PBIEmbedded.Domain.csproj",
         "projectName": "PBIEmbedded.Domain",
-        "projectPath": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Domain\\PBIEmbedded.Domain.csproj",
+        "projectPath": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Domain\\PBIEmbedded.Domain.csproj",
         "packagesPath": "C:\\Users\\EmersonCaus\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Domain\\obj\\",
+        "outputPath": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EmersonCaus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -214,18 +218,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Persistence\\PBIEmbedded.Persistence.csproj": {
+    "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Persistence\\PBIEmbedded.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Persistence\\PBIEmbedded.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Persistence\\PBIEmbedded.Persistence.csproj",
         "projectName": "PBIEmbedded.Persistence",
-        "projectPath": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Persistence\\PBIEmbedded.Persistence.csproj",
+        "projectPath": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Persistence\\PBIEmbedded.Persistence.csproj",
         "packagesPath": "C:\\Users\\EmersonCaus\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EmersonCaus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -244,8 +248,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Domain\\PBIEmbedded.Domain.csproj": {
-                "projectPath": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.Domain\\PBIEmbedded.Domain.csproj"
+              "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Domain\\PBIEmbedded.Domain.csproj": {
+                "projectPath": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\PBIEmbedded.Domain\\PBIEmbedded.Domain.csproj"
               }
             }
           }
@@ -288,7 +292,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

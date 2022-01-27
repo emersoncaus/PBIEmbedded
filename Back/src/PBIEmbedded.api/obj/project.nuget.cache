@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TT3WBRySxd3B37j1d0rzWZ90r7tZIDIbYUTv15HVQBKHVEhMpjWWWLu9fOoXrRJUUq+Lik2GHncweVO+ln9fAA==",
+  "dgSpecHash": "JS+iWBtr1Vkz7kIQYhnkkXhVWywk6Jk6cQPMkolvPTOSODsAFjtSa05oqTqKysFchdqiTcQSt2bhA0MTuGQdpw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\Back\\src\\PBIEmbedded.api\\PBIEmbedded.api.csproj",
+  "projectFilePath": "C:\\Users\\EmersonCaus\\Desktop\\PowerBIEmbedded\\back\\src\\pbiembedded.api\\PBIEmbedded.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EmersonCaus\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\EmersonCaus\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

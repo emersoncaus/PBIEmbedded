@@ -136,7 +136,7 @@ namespace PBIEmbedded.api.Controllers
             try
             {
                  return await _dashboardService.DeleteDashboard(id) ?
-                        Ok("Deleted") : 
+                        Ok(new { message = "Deleted"}) : 
                         BadRequest("Undeleted dashboard");
 
             }
